@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Companion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mental Health Companion</h1>
+        <p>Your AI-powered mental wellness tracker</p>
+    </header>
+    <main>
+        <section class="mood-tracker card">
+            <h2>Daily Mood Check-In</h2>
+            <label for="mood">How are you feeling today?</label>
+            <select id="mood">
+                <option value="happy">😊 Happy</option>
+                <option value="sad">😢 Sad</option>
+                <option value="anxious">😟 Anxious</option>
+                <option value="angry">😠 Angry</option>
+                <option value="neutral">😐 Neutral</option>
+            </select>
+            <button onclick="submitMood()">Submit</button>
+        </section>
+        <section class="activity-suggestions card">
+            <h2>Suggested Activities</h2>
+            <p id="suggestion">Select a mood to see a suggestion.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Mental Health Companion</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
